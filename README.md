@@ -8,8 +8,8 @@ Dữ liệu được chia thành **train** và **test**, lưu dưới dạng **G
 ## Cài đặt
 
 ### 1. Clone repo
-git clone https://github.com/<your-username>/satellite-flood-pipeline.git
-cd satellite-flood-pipeline
+#git clone https://github.com/<your-username>/satellite-flood-pipeline.git
+#cd satellite-flood-pipeline
 
 ### 2. Tạo virtualenv
 python3 -m venv .venv
