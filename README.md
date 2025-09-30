@@ -5,28 +5,6 @@ Dữ liệu được chia thành **train** và **test**, lưu dưới dạng **G
 
 ---
 
-## Cấu trúc dự án
-
-
-satellite-flood-pipeline/
- ├── configs/ # Configs (YAML, token, key)
- │ └── gee_config.yaml
- ├── data/
- │ ├── train/ # Ảnh huấn luyện
- │ └── test/ # Ảnh kiểm thử
- ├── src/
- │ ├── data/
- │ │ ├── download_data_cli.py # Chạy bằng CLI
- │ │ └── download_data_input.py # Chạy bằng input()
- │ └── utils/
- │ ├── gee_utils.py # Hàm xử lý GEE
- │ └── io_utils.py # Hàm I/O
- ├── requirements.txt
- ├── .gitignore
- └── README.md
-
----
-
 ## Cài đặt
 
 ### 1. Clone repo
