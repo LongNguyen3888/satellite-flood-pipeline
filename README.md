@@ -8,26 +8,35 @@ Dữ liệu được chia thành **train** và **test**, lưu dưới dạng **G
 ## Cài đặt
 
 ### 1. Clone repo
-#git clone https://github.com/<your-username>/satellite-flood-pipeline.git
-#cd satellite-flood-pipeline
+~~~
+git clone https://github.com/<your-username>/satellite-flood-pipeline.git
+cd satellite-flood-pipeline
+~~~
 
 ### 2. Tạo virtualenv
+~~~
 python3 -m venv .venv
 source .venv/bin/activate   # Linux/Mac
 .venv\Scripts\activate      # Windows
+~~~
 
 ### 3. Cài dependencies
+~~~
 pip install -r requirements.txt
+~~~
 
 
 ## Kết nối Google Earth Engine
 Cài đặt Earth Engine Python API.
 Xác thực tài khoản:
+~~~
  earthengine authenticate
-Đảm bảo bạn có quyền truy cập dataset COPERNICUS/S2_SR.
+~~~
 
 ## Sử dụng
+~~~
 python -m src.data.download_data_input
+~~~
 Script sẽ hỏi lần lượt mode, lat, lon, buffer, v.v.
 
 ## Output
