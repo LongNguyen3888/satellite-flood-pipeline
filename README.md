@@ -30,7 +30,6 @@ satellite-flood-pipeline/
 ## Cài đặt
 
 ### 1. Clone repo
-```bash
 git clone https://github.com/<your-username>/satellite-flood-pipeline.git
 cd satellite-flood-pipeline
 
